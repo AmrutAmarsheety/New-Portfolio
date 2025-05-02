@@ -1,6 +1,6 @@
 import Reveal from "../util/Reveal";
-import DotGrid from "./DotGrid";
 import { OutlineButton } from "../buttons/OutlineButton";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -22,13 +22,11 @@ const Hero = () => {
           </Reveal>
           <Reveal>
             <p className="pointer-events-auto leading-relaxed md:leading-relaxed max-w-xl text-sm text-zinc-300 md:text-base">
-              {/* I&apos;ve spent the last 5 years building and scaling software for some
-              pretty cool companies. I also teach people to paint online (incase
-              you&apos;ve got an empty canvas layin&apos; around 🎨). Let&apos;s connect! */}
               A Civil Engineering graduate with practical exposure in project execution, billing, and site coordination. This portfolio highlights my academic journey and contributions to infrastructure projects.
             </p>
           </Reveal>
           <Reveal>
+
             <OutlineButton
               onClick={() => {
                 document.getElementById("contact")?.scrollIntoView();
@@ -39,7 +37,14 @@ const Hero = () => {
             </OutlineButton>
           </Reveal>
         </div>
-        <DotGrid />
+        {/* <DotGrid /> */}
+        <Image
+        className="absolute right-0 top-[50%] z-0 grid max-w-[75%] -translate-y-[50%]"
+          src="https://i.ibb.co/gLMLS16g/0f485206-85af-41ba-a01d-63d34befc4ab.jpg"
+          alt='Profile-Img'
+          width={400}
+          height={400}
+        />
       </div>
     </section>
   );

@@ -27,8 +27,10 @@ const LeftSidebar = () => {
       <div className="h-full bg-white dark:bg-zinc-900 shadow-lg">
         <div className="p-4">
           <div className="grid grid-cols-[54px_2fr] gap-4 mb-8">
-            <motion.div
+            <motion.img
               className="w-10 h-10 rounded-full bg-indigo-500"
+              src="https://i.ibb.co/gLMLS16g/0f485206-85af-41ba-a01d-63d34befc4ab.jpg"
+              alt='Profile-Img'
               initial={{ scale: 1 }}
               animate={{ scale: isHovered ? 1.2 : 1 }}
               transition={{ duration: 0.3 }}
@@ -44,7 +46,7 @@ const LeftSidebar = () => {
           </div>
           <div className="grid grid-cols-[54px_2fr] gap-4 mb-4">
             <div />
-            <div className="flex justify-end">
+            <div className="flex justify-start">
               <motion.button
                 onClick={toggleTheme}
                 className="p-2 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800"
