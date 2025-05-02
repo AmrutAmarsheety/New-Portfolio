@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import ReactDOM from "react-dom";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 
@@ -49,10 +50,12 @@ export const ProjectModal = ({
         onClick={(e) => e.stopPropagation()}
         className="w-full max-w-2xl h-fit rounded-lg overflow-hidden bg-zinc-900 shadow-lg cursor-auto"
       >
-        <img
+        <Image
           className="w-full"
           src={imgSrc}
           alt={`An image of the ${title} project.`}
+          width={800}
+          height={450}
         />
         <div className="p-8">
           <h4 className="text-3xl font-bold mb-2">{title}</h4>

@@ -28,19 +28,13 @@ const projects = [
     modalContent: (
       <>
         <p>
-        During my training, I undertook the project titled "Estimation and Bill of Quantity for Police School Staff Quarters", where I was provided with structural drawings to carry out detailed estimation work. The process began with a thorough analysis of the drawings to understand the structural components involved, including footings, columns, beams, slabs, and masonry works.
-          .
+          During my training, I undertook the project titled &quot;Estimation and Bill of Quantity for Police School Staff Quarters&quot;, where I was provided with structural drawings to carry out detailed estimation work. The process began with a thorough analysis of the drawings to understand the structural components involved, including footings, columns, beams, slabs, and masonry works.
         </p>
         <p>
-        I then performed quantity take-offs using the standard method prescribed in IS 1200, ensuring accurate measurement of all items .
+          I then performed quantity take-offs using the standard method prescribed in IS 1200, ensuring accurate measurement of all items.
         </p>
         <p>
-      
-        </p>
-        <p>
-        Based on these quantities, I prepared a comprehensive Bill of Quantities (BOQ) that included item descriptions, units, calculated quantities, applicable rates from DSR/PWD schedules, and the total estimated costs. Tools such as AutoCAD were used for drawing interpretation, while MS Excel was utilized for calculations and BOQ formatting. This project helped me develop a strong foundation in quantity surveying, cost estimation, budgeting, and the practical application of construction standards, significantly enhancing my technical and analytical skills in civil engineering.
-
-
+          Based on these quantities, I prepared a comprehensive Bill of Quantities (BOQ) that included item descriptions, units, calculated quantities, applicable rates from DSR/PWD schedules, and the total estimated costs. Tools such as AutoCAD were used for drawing interpretation, while MS Excel was utilized for calculations and BOQ formatting. This project helped me develop a strong foundation in quantity surveying, cost estimation, budgeting, and the practical application of construction standards, significantly enhancing my technical and analytical skills in civil engineering.
         </p>
         <p>
           Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
@@ -62,13 +56,13 @@ const projects = [
     modalContent: (
       <>
         <p>
-        During my internship, I was responsible for preparing bills for a school construction project, ensuring accuracy in quantity measurements and alignment with the project's progress stages.
+          During my internship, I was responsible for preparing bills for a school construction project, ensuring accuracy in quantity measurements and alignment with the project&apos;s progress stages.
         </p>
         <p>
-        I prepared running account (RA) bills, verified on-site work completion, and coordinated with contractors for timely approvals and payment processes. 
+          I prepared running account (RA) bills, verified on-site work completion, and coordinated with contractors for timely approvals and payment processes. 
         </p>
         <p>
-        This experience helped me develop strong skills in billing documentation, financial management, and project coordination.
+          This experience helped me develop strong skills in billing documentation, financial management, and project coordination.
         </p>
         <p>
           Click to view the bill {" "}
@@ -120,18 +114,14 @@ const projects = [
       <>
         <p>As part of the school construction project, I was actively involved in quantity surveying tasks, including detailed quantity take-offs, estimation, and cross-verification of material requirements based on drawings and site conditions.</p>
         <p>
-        I ensured accurate measurement of works executed, supported billing processes, and contributed to cost control by identifying variations and updating quantities accordingly.
-        
+          I ensured accurate measurement of works executed, supported billing processes, and contributed to cost control by identifying variations and updating quantities accordingly.
         </p>
         <p>  {":)"}</p>
         <p>
-        This experience strengthened my technical skills in estimation, attention to detail, and project documentation.
-  .
+          This experience strengthened my technical skills in estimation, attention to detail, and project documentation.
         </p>
         <p>
-        Click to read: Performed quantity take-offs, estimations, and verification of executed work for a  construction project to support billing and cost control.
-
-
+          Click to read: Performed quantity take-offs, estimations, and verification of executed work for a  construction project to support billing and cost control.
         </p>
       </>
     ),
@@ -147,16 +137,16 @@ const projects = [
     modalContent: (
       <>
         <p>
-        As part of the project, I prepared Bar Bending Schedules (BBS) for various structural elements including footings, columns, beams, and slabs .
+          As part of the project, I prepared Bar Bending Schedules (BBS) for various structural elements including footings, columns, beams, and slabs .
         </p>
         <p>
-        This involved interpreting structural drawings, calculating cutting lengths, bend deductions, bar shapes, and reinforcement quantities based on IS codes. I ensured that the BBS was accurate and aligned with site requirements, which helped in material planning, cost control, and reducing steel wastage. {":)"}
+          This involved interpreting structural drawings, calculating cutting lengths, bend deductions, bar shapes, and reinforcement quantities based on IS codes. I ensured that the BBS was accurate and aligned with site requirements, which helped in material planning, cost control, and reducing steel wastage. {":)"}
         </p>
         <p>
-        The work improved my technical understanding of reinforcement detailing and my ability to collaborate with execution teams for structural compliance.
+          The work improved my technical understanding of reinforcement detailing and my ability to collaborate with execution teams for structural compliance.
         </p>
         <p>
-        Click to read: Prepared Bar Bending Schedules (BBS) for structural elements by interpreting drawings and calculating reinforcement quantities for a construction project.
+          Click to read: Prepared Bar Bending Schedules (BBS) for structural elements by interpreting drawings and calculating reinforcement quantities for a construction project.
         </p>
       </>
     ),

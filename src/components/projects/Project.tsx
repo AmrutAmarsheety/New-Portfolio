@@ -1,5 +1,6 @@
 import { useAnimation, useInView, motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { AiFillGithub, AiOutlineExport } from "react-icons/ai";
 import { ProjectModal } from "./ProjectModal";
@@ -57,9 +58,11 @@ export const Project = ({
           onClick={() => setIsOpen(true)}
           className="w-full aspect-video bg-zinc-700 cursor-pointer relative rounded-lg overflow-hidden"
         >
-          <img
+          <Image
             src={imgSrc}
             alt={`An image of the ${title} project.`}
+            width={800}
+            height={450}
             style={{
               width: hovered ? "90%" : "85%",
               rotate: hovered ? "2deg" : "0deg",
