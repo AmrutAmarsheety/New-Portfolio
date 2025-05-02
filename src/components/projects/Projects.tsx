@@ -19,8 +19,7 @@ export const Projects = () => {
 const projects = [
   {
     title: "Estimation and BOQ Preparation",
-    imgSrc: "project-imgs/Estimation.png",
-    
+    imgSrc: "https://i.ibb.co/YTbSTDDW/Screenshot-95.png",
     projectLink: "https://drive.google.com/file/d/1dNmehoX7XHRYZiTjfI362O7UckGSuqhv/view?usp=drive_link",
     tech: [ "MS Excel", "Strutural Drawings"],
     description:
@@ -51,8 +50,6 @@ const projects = [
     tech: [ "CPWD Norms", "MS Excel", "Strutural Drawings"],
     description:
       "Click to read: Prepared and managed billing documentation for a school construction project, ensuring accurate measurement, verification, and contractor coordination.",
-
-
     modalContent: (
       <>
         <p>
@@ -65,14 +62,7 @@ const projects = [
           This experience helped me develop strong skills in billing documentation, financial management, and project coordination.
         </p>
         <p>
-          Click to view the bill {" "}
-          {":)"}
-        </p>
-        <p>
-          
-        </p>
-        <p>
-         
+          Click to view the bill {":)"}
         </p>
       </>
     ),
