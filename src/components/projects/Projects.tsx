@@ -4,10 +4,10 @@ import { Project } from "./Project";
 
 export const Projects = () => {
   return (
-    <section className="section-wrapper" id="projects">
+    <section className="section-wrapper px-4 sm:px-6" id="projects">
       <SectionHeader title="Projects" dir="r" />
 
-      <div className="grid gap-12 grid-cols-1 md:grid-cols-2">
+      <div className="grid gap-8 sm:gap-12 grid-cols-1 md:grid-cols-2">
         {projects.map((project) => {
           return <Project key={project.title} {...project} />;
         })}

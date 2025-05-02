@@ -4,23 +4,22 @@ import { AiFillCode, AiFillSmile } from "react-icons/ai";
 
 export const Stats = () => {
   return (
-    <div className="relative">
+    <div className="relative mt-8 sm:mt-0">
       <Reveal>
         <div>
-          <h4 className="flex items-center mb-6">
-            <AiFillCode className="text-indigo-500 text-2xl" />
-            <span className="font-bold ml-2">Technical Skills</span>
+          <h4 className="flex items-center mb-4 sm:mb-6">
+            <AiFillCode className="text-indigo-500 text-xl sm:text-2xl" />
+            <span className="font-bold ml-2 text-base sm:text-lg">Technical Skills</span>
           </h4>
-          <div className="flex flex-wrap gap-2 mb-12">
-            <Chip>Site Supervision & Execution </Chip>
-            <Chip>AutoCAD Drafting & Plan Interpretation </Chip>
-            <Chip>Quantity Surveying & Estimation (BOQ Preparation) </Chip>
+          <div className="flex flex-wrap gap-2 mb-8 sm:mb-12">
+            <Chip>Site Supervision & Execution</Chip>
+            <Chip>AutoCAD Drafting & Plan Interpretation</Chip>
+            <Chip>Quantity Surveying & Estimation (BOQ Preparation)</Chip>
             <Chip>Project Scheduling using MS Excel</Chip>
-            <Chip>Bar Bending Schedule (BBS ) </Chip>
+            <Chip>Bar Bending Schedule (BBS)</Chip>
             <Chip>Basic Surveying Tools (Dumpy Level, Measuring Tape)</Chip>
-            <Chip>Familiarity with IS Codes and Building Standards </Chip>
+            <Chip>Familiarity with IS Codes and Building Standards</Chip>
             <Chip>Billing & BOQ Preparation</Chip>
-            
           </div>
         </div>
       </Reveal>

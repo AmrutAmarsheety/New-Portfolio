@@ -70,29 +70,29 @@ export const Project = ({
             className="w-[85%] absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/4 transition-all rounded"
           />
         </div>
-        <div className="mt-6">
+        <div className="mt-4 sm:mt-6">
           <Reveal width="w-full">
             <div className="flex items-center gap-2 w-full">
-              <h4 className="font-bold text-lg shrink-0 max-w-[calc(100%_-_150px)]">
+              <h4 className="font-bold text-base sm:text-lg shrink-0 max-w-[calc(100%_-_100px)] sm:max-w-[calc(100%_-_150px)]">
                 {title}
               </h4>
               <div className="w-full h-[1px] bg-zinc-600" />
 
               <Link href={projectLink} target="_blank" rel="nofollow">
-                <AiOutlineExport className="text-xl text-zinc-300 hover:text-indigo-300 transition-colors" />
+                <AiOutlineExport className="text-lg sm:text-xl text-zinc-300 hover:text-indigo-300 transition-colors" />
               </Link>
             </div>
           </Reveal>
           <Reveal>
-            <div className="flex flex-wrap gap-4 text-sm text-indigo-300 my-2">
+            <div className="flex flex-wrap gap-2 sm:gap-4 text-xs sm:text-sm text-indigo-300 my-2">
               {tech.join(" - ")}
             </div>
           </Reveal>
           <Reveal>
-            <p className="text-zinc-300 leading-relaxed">
+            <p className="text-zinc-300 leading-relaxed text-sm sm:text-base">
               {description}{" "}
               <span
-                className="inline-block text-sm text-indigo-300 cursor-pointer"
+                className="inline-block text-xs sm:text-sm text-indigo-300 cursor-pointer"
                 onClick={() => setIsOpen(true)}
               >
                 Learn more {">"}

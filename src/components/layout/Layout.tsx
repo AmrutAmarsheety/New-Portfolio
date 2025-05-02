@@ -8,7 +8,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen bg-zinc-900 text-zinc-100 flex">
-      <LeftSidebar />
+      {/* <LeftSidebar /> */}
       <main className="flex-1 min-h-screen overflow-auto bg-zinc-900">
         {children}
       </main>
