@@ -12,14 +12,14 @@ export const Stats = () => {
             <span className="font-bold ml-2 text-base sm:text-lg">Technical Skills</span>
           </h4>
           <div className="flex flex-wrap gap-2 mb-8 sm:mb-12">
-            <Chip>Site Supervision & Execution</Chip>
-            <Chip>AutoCAD Drafting & Plan Interpretation</Chip>
-            <Chip>Quantity Surveying & Estimation (BOQ Preparation)</Chip>
-            <Chip>Project Scheduling using MS Excel</Chip>
-            <Chip>Bar Bending Schedule (BBS)</Chip>
-            <Chip>Basic Surveying Tools (Dumpy Level, Measuring Tape)</Chip>
-            <Chip>Familiarity with IS Codes and Building Standards</Chip>
-            <Chip>Billing & BOQ Preparation</Chip>
+            <Chip className="text-xs sm:text-sm">Site Supervision & Execution</Chip>
+            <Chip className="text-xs sm:text-sm">AutoCAD Drafting & Plan Interpretation</Chip>
+            <Chip className="text-xs sm:text-sm">Quantity Surveying & Estimation (BOQ Preparation)</Chip>
+            <Chip className="text-xs sm:text-sm">Project Scheduling using MS Excel</Chip>
+            <Chip className="text-xs sm:text-sm">Bar Bending Schedule (BBS)</Chip>
+            <Chip className="text-xs sm:text-sm">Basic Surveying Tools (Dumpy Level, Measuring Tape)</Chip>
+            <Chip className="text-xs sm:text-sm">Familiarity with IS Codes and Building Standards</Chip>
+            <Chip className="text-xs sm:text-sm">Billing & BOQ Preparation</Chip>
           </div>
         </div>
       </Reveal>

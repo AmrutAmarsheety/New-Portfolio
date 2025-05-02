@@ -9,10 +9,10 @@ export const About = () => {
     <section id="about" className="section-wrapper px-4 sm:px-6">
       <SectionHeader title="About" dir="l" />
       <div className="grid grid-cols-1 md:grid-cols-[1fr_300px] gap-6 sm:gap-8">
-        <div className="space-y-3 sm:space-y-4">
+        <div className="space-y-4 sm:space-y-5">
           <Reveal>
             <p className="leading-relaxed text-zinc-300 text-sm sm:text-base">
-              <span className="bg-indigo-500 text-white py-1 sm:py-2 px-2 sm:px-3 rounded font-bold mr-1 float-left text-xl sm:text-2xl">
+              <span className="bg-indigo-500 text-white py-1.5 sm:py-2 px-2.5 sm:px-3 rounded font-bold mr-2 float-left text-xl sm:text-2xl">
                 H
               </span>
               ey! I&apos;m Amrut Amarshetty, a motivated and detail-oriented Civil Engineering graduate with a strong foundation in site execution, Auto cad, Estimation, Billing etc.
@@ -39,10 +39,10 @@ export const About = () => {
             </p>
           </Reveal>
           <Reveal>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 mt-6">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 sm:gap-6 mt-8">
               <div className="flex items-center gap-2 sm:gap-4 text-sm text-indigo-300">
-                <span>My links</span>
-                <AiOutlineArrowRight />
+                <span className="font-medium">My links</span>
+                <AiOutlineArrowRight className="text-base sm:text-lg" />
               </div>
               <MyLinks />
             </div>
