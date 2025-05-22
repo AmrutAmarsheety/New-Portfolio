@@ -29,7 +29,7 @@ const LeftSidebar = () => {
           <div className="grid grid-cols-[54px_2fr] gap-4 mb-8">
             <motion.img
               className="w-10 h-10 rounded-full bg-indigo-500"
-              src="https://i.ibb.co/gLMLS16g/0f485206-85af-41ba-a01d-63d34befc4ab.jpg"
+              src="https://i.ibb.co/hFsB6JDy/Whats-App-Image-2025-05-22-at-2-06-09-PM.jpg"
               alt='Profile-Img'
               initial={{ scale: 1 }}
               animate={{ scale: isHovered ? 1.2 : 1 }}

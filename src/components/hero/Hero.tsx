@@ -40,7 +40,7 @@ const Hero = () => {
         {/* <DotGrid /> */}
         <Image
         className="absolute right-0 top-[50%] z-0 grid max-w-[75%] -translate-y-[50%]"
-          src="https://i.ibb.co/gLMLS16g/0f485206-85af-41ba-a01d-63d34befc4ab.jpg"
+          src="https://i.ibb.co/hFsB6JDy/Whats-App-Image-2025-05-22-at-2-06-09-PM.jpg"
           alt='Profile-Img'
           width={400}
           height={400}
