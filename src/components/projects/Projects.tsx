@@ -36,8 +36,7 @@ const projects = [
           Based on these quantities, I prepared a comprehensive Bill of Quantities (BOQ) that included item descriptions, units, calculated quantities, applicable rates from DSR/PWD schedules, and the total estimated costs. Tools such as AutoCAD were used for drawing interpretation, while MS Excel was utilized for calculations and BOQ formatting. This project helped me develop a strong foundation in quantity surveying, cost estimation, budgeting, and the practical application of construction standards, significantly enhancing my technical and analytical skills in civil engineering.
         </p>
         <p>
-          Fuga id sapiente facere ipsa eius exercitationem officiis deleniti,
-          rerum dolorum. Deserunt soluta modi culpa animi.
+      
         </p>
       </>
     ),
