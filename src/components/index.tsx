@@ -6,6 +6,7 @@ import { Projects } from './projects/Projects';
 import { Experience } from './experience/Experience';
 import { Contact } from './contact/Contact';
 import { Education } from './education/Education';
+import Certificates from './certificates/Certificates';
 
 export const MainContent = () => {
   return (
@@ -15,6 +16,7 @@ export const MainContent = () => {
         <Hero />
         <About />
         <Projects />
+        <Certificates />
         <Experience />
         <Education />
         <Contact />
