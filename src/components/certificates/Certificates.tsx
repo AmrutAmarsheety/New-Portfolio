@@ -20,14 +20,17 @@ interface Certificate {
 
 const certificates: Certificate[] = [
   {
-    title: "Certificate 1",
-    url: "https://drive.google.com/file/d/1MS4ii0nKPTzos3gd_E8DUo_ttp5fgrqh/preview"
+    title: "Civil Guruji Certificate",
+    url: "https://drive.google.com/file/d/1SnQQTiPXQEkUGFMqC7Y8DYOD5DGRo9je/preview"
   },
   {
-    title: "Certificate 2",
-    url: "https://drive.google.com/file/d/1MS4ii0nKPTzos3gd_E8DUo_ttp5fgrqh/preview"
+    title: "Internship Cerificate",
+    url: "https://drive.google.com/file/d/14wpi6cqYpBpc3xVOZ1DSQjTOjWBQfK9k/preview"
   },
-  // Add more certificates as needed
+  {
+    title: "Auto-Cad Certiicate",
+    url: "https://drive.google.com/file/d/14Ec5DgaZwaPkvBheunW6o52k7P20qUlv/preview"
+  },
 ];
 
 const Certificates = () => {
